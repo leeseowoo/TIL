@@ -1,5 +1,9 @@
 # Git Command
 
+#### git reset --soft HEAD~1
+- 최근 commit 한 개를 취소하고 staging area로 옮김
+- --soft option이 아닌 --hard를 사용할 경우 작업 내용을 완전히 삭제
+
 #### git push --force
 - --force option을 사용하여 remote에 local branch 상태를 강제로 적용
 - 동일한 branch에서 작업 중인 팀원이 있을 경우 미리 알리고 주의해서 신중히 사용
